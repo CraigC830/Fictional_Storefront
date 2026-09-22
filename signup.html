@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Craig's Computer Shop - Sign Up</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .signup-form {
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Craig's Computer Shop</h1>
+        <p>Selling computer parts and offering repair services!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Book Appointment</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <h2>Create an Account</h2>
+
+        <div class="signup-form">
+
+            <form>
+
+                <!-- Username -->
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text"
+                           class="form-control"
+                           id="username"
+                           placeholder="Enter username"
+                           required>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email"
+                           class="form-control"
+                           id="email"
+                           placeholder="Enter email"
+                           required>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password"
+                           class="form-control"
+                           id="password"
+                           placeholder="Enter password"
+                           required>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                    <input type="password"
+                           class="form-control"
+                           id="confirmPassword"
+                           placeholder="Confirm password"
+                           required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-dark">
+                    Sign Up
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Craig's computer shop | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
